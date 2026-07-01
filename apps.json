@@ -97,7 +97,7 @@
     "size": "591.6K",
     "description": "Letras de canciones de Justin Bieber sin necesidad de internet pesado.",
     "icon_url": "",
-    "apk_url": "https://raw.githubusercontent.com/jamillansantiago/Appstoreapk/main/apks/Justin+Bieber+Lyrics+Free.apk"
+    "apk_url": "https://raw.githubusercontent.com/jamillansantiago/Appstoreapk/main/apks/Justin_Bieber_Lyrics_Free.apk"
   },
   {
     "id": "com.live.tv",
@@ -134,3 +134,99 @@
     "name": "SMS Manager",
     "version": "1.0.0",
     "category": "Herramientas",
+    "size": "309.7K",
+    "description": "Gestiona tus mensajes de texto de forma ligera y eficiente.",
+    "icon_url": "",
+    "apk_url": "https://raw.githubusercontent.com/jamillansantiago/Appstoreapk/main/apks/SMSManager.apk"
+  },
+  {
+    "id": "com.top.free.mp3.download",
+    "name": "Top Free MP3 Downloads",
+    "version": "1.0.0",
+    "category": "Música",
+    "size": "263.9K",
+    "description": "Buscador de música MP3 de la vieja escuela.",
+    "icon_url": "",
+    "apk_url": "https://raw.githubusercontent.com/jamillansantiago/Appstoreapk/main/apks/TOP+FREE+MP3+DOWNLOADS.apk"
+  },
+  {
+    "id": "com.tvonline",
+    "name": "TV Online",
+    "version": "1.0.0",
+    "category": "Entretenimiento",
+    "size": "1.3M",
+    "description": "Acceso a listas de reproducción de TV y streaming básico.",
+    "icon_url": "",
+    "apk_url": "https://raw.githubusercontent.com/jamillansantiago/Appstoreapk/main/apks/TVOnline.apk"
+  },
+  {
+    "id": "com.tinnitus.remedies",
+    "name": "Tinnitus Natural Remedies",
+    "version": "1.0.0",
+    "category": "Salud",
+    "size": "469.1K",
+    "description": "Guía de remedios naturales y sonidos relajantes para el tinnitus.",
+    "icon_url": "",
+    "apk_url": "https://raw.githubusercontent.com/jamillansantiago/Appstoreapk/main/apks/TinnitusNaturalRemedies.apk"
+  },
+  {
+    "id": "com.top.hotel.search",
+    "name": "Top Hotel Search",
+    "version": "1.0.0",
+    "category": "Viajes",
+    "size": "264.8K",
+    "description": "Herramienta ligera para buscar hoteles en todo el mundo.",
+    "icon_url": "",
+    "apk_url": "https://raw.githubusercontent.com/jamillansantiago/Appstoreapk/main/apks/Top+Hotel+Search.apk"
+  },
+  {
+    "id": "com.vaeret.norge",
+    "name": "Vaeret Norge",
+    "version": "1.0.0",
+    "category": "Tiempo",
+    "size": "262.1K",
+    "description": "Aplicación meteorológica enfocada en la región de Noruega.",
+    "icon_url": "",
+    "apk_url": "https://raw.githubusercontent.com/jamillansantiago/Appstoreapk/main/apks/Vaeret+Norge.apk"
+  },
+  {
+    "id": "com.welding",
+    "name": "Welding App",
+    "version": "1.0.0",
+    "category": "Herramientas",
+    "size": "1.4M",
+    "description": "Guía técnica y manual básico de soldadura industrial.",
+    "icon_url": "",
+    "apk_url": "https://raw.githubusercontent.com/jamillansantiago/Appstoreapk/main/apks/Welding.apk"
+  },
+  {
+    "id": "com.world.map.android",
+    "name": "World Map Android Free",
+    "version": "1.0.0",
+    "category": "Educación",
+    "size": "590.4K",
+    "description": "Mapamundi interactivo y ligero ideal para pantallas pequeñas.",
+    "icon_url": "",
+    "apk_url": "https://raw.githubusercontent.com/jamillansantiago/Appstoreapk/main/apks/WorldMap+Android+Free.apk"
+  },
+  {
+    "id": "com.findalldifferences",
+    "name": "Find All Differences",
+    "version": "1.0.0",
+    "category": "Juegos",
+    "size": "2.9M",
+    "description": "Encuentra las diferencias ocultas entre las dos imágenes.",
+    "icon_url": "",
+    "apk_url": "https://raw.githubusercontent.com/jamillansantiago/Appstoreapk/main/apks/findalldifferences.apk"
+  },
+  {
+    "id": "com.flappybirdy",
+    "name": "Flappy Birdy",
+    "version": "1.0.0",
+    "category": "Juegos",
+    "size": "5.1M",
+    "description": "Clon del adictivo juego del pájaro esquivando tuberías.",
+    "icon_url": "",
+    "apk_url": "https://raw.githubusercontent.com/jamillansantiago/Appstoreapk/main/apks/flappybirdy.apk"
+  }
+]
