@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Retro App Store - Android Legacy</title>
+    <style>
+        :root {
+            --bg-color: #0f0c1b;
+            --card-bg: #1d1833;
+            --accent-color: #7c4dff;
+            --text-color: #e2e1e9;
+            --text-muted: #9d99b3;
+            --android-green: #3ddc84;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.6;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        header {
+            text-align: center;
+            padding: 60px 20px 40px 20px;
+            background: linear-gradient(180deg, #16122c 0%, var(--bg-color) 100%);
+        }
+
+        .logo-icon {
+            font-size: 4rem;
+            color: var(--android-green);
+            margin-bottom: 15px;
+        }
+
+        header h1 {
+            font-size: 3rem;
+            margin-bottom: 10px;
+            font-weight: 800;
+            letter-spacing: -1px;
+            background: linear-gradient(45deg, var(--android-green), var(--accent-color));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        header p {
+            color: var(--text-muted);
+            font-size: 1.2rem;
+            max-width: 600px;
+            margin: 0 auto 30px auto;
+        }
+
+        .btn-download-store {
+            display: inline-block;
+            background-color: var(--accent-color);
+            color: #fff;
+            padding: 14px 28px;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.1rem;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(124, 77, 255, 0.4);
+        }
+
+        .btn-download-store:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(124, 77, 255, 0.6);
+            background-color: #6936fa;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 20px;
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .empty-state {
+            text-align: center;
+            padding: 50px 20px;
+            background-color: var(--card-bg);
+            border-radius: 16px;
+            border: 2px dashed rgba(255, 255, 255, 0.1);
+            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+        }
+
+        .empty-icon {
+            font-size: 3.5rem;
+            margin-bottom: 15px;
+            display: inline-block;
+            animation: float 3s ease-in-out infinite;
+        }
+
+        .empty-text {
+            font-size: 1.4rem;
+            font-weight: 600;
+            color: var(--text-color);
+        }
+
+        .empty-subtext {
+            color: var(--text-muted);
+            font-size: 1rem;
+            margin-top: 8px;
+            max-width: 450px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        @keyframes float {
+            0% { transform: translateY(0px); }
+            50% { transform: translateY(-10px); }
+            100% { transform: translateY(0px); }
+        }
+
+        footer {
+            text-align: center;
+            padding: 30px 20px;
+            color: var(--text-muted);
+            font-size: 0.9rem;
+            border-top: 1px solid rgba(255, 255, 255, 0.05);
+            background-color: rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo-icon">🤖</div>
+        <h1>Retro App Store</h1>
+        <p>Una tienda alternativa moderna diseñada para revivir tus dispositivos Android antiguos (versiones 2.3 a 5.0).</p>
+        <a href="apks/RetroAppStore.apk" class="btn-download-store">Descargar Tienda APK</a>
+    </header>
+
+    <main class="container">
+        <div class="empty-state">
+            <div class="empty-icon">✨</div>
+            <div class="empty-text">Ups, parece que no hay nada aquí...</div>
+            <div class="empty-subtext">El catálogo web no está disponible. Descarga e instala nuestra app en tu dispositivo Android para explorar y bajar todas las aplicaciones.</div>
+        </div>
+    </main>
+
+    <footer>
+        <p>Proyecto de preservación de software. Desarrollado con Flutter y alojado en GitHub.</p>
+    </footer>
+
+</body>
+</html>
